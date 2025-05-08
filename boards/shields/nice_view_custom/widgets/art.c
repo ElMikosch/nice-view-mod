@@ -12,6 +12,10 @@
 #define LV_ATTRIBUTE_MEM_ALIGN
 #endif
 
+#ifndef LV_ATTRIBUTE_IMG_LEYLA
+#define LV_ATTRIBUTE_IMG_LEYLA
+#endif
+
 const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_LEYLA uint8_t Leyla_map[] = {
 #if CONFIG_NICE_VIEW_WIDGET_INVERTED
         0xff, 0xff, 0xff, 0xff, /*Color of index 0*/
